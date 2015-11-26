@@ -67,7 +67,7 @@
 		<div id="page-wrapper">
 			<h1>Dashboard for <?php echo $fName." ".$lName;?></h1>
 			<?php echo $msg?>
-			<p><strong>Date of Birth:</strong> <?echo $DOB;?>
+			<p><strong>Date of Birth: </strong> <?echo $DOB;?>
 				<p><strong>Age: </strong><?echo $ageYears ." years"?>
 					<?php if($_SESSION["Editable"]==1)
 					{
