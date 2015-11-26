@@ -1,0 +1,49 @@
+.inputForm label {
+    display: block;
+    color: black;
+    text-align: center;
+    color: #505050;
+}
+
+:focus {
+    background-color: #CCFFCC;
+    outline: 0;
+}
+
+.inputForm {
+    width: 475px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: #69c773;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px 0px #FAFAFA;
+    border: 1px solid #000000;
+}
+
+.inputForm ul {
+    padding: 0;
+    margin: 0;
+}
+
+.inputForm li {
+    display: inline;
+    float: left;
+}
+
+.inputForm input:not([type=submit]),
+.inputForm input:not([type=button]) {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px #FAFAFA;
+}
+
+.inputForm input[type=submit],
+.inputForm input[type=button] {
+    border: 1px solid #000000;
+    background: #2E8B57;
+    color: #fff;
+    padding: 5px 15px;
+    margin-right: 0;
+    margin-top: 15px;
+    text-shadow: 1px 1px 0px #000000;
+}

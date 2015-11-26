@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<users>
+        <user>
+            <userId>robert.hovious</userId>
+            <password>5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8</password>
+			<fName>Robert</fName>
+			<lName>Hovious</lName>
+            <dob>1993-02-10</dob>
+            <shingles/>
+            <flu>2014-11-30</flu>
+            <tdap/>
+			<pcv13/>
+			<ppsv23/>
+			<menin/>
+			<hib/>
+        </user>
+       <user>
+			<userId>Bob123</userId>
+			<password>49c39ce22d2cee425fe0c88a74faa99d00a8c80017a21fc8bb4da46e20e75f53</password>
+			<fName>Bob</fName>
+			<lName>DeBuilder</lName>
+			<dob>1956-02-01</dob>
+		   <shingles/>
+		   <flu>1998-06-27</flu>
+		   <tdap>2007-10-14</tdap>
+		   <pcv13>2001-01-01</pcv13>
+			<ppsv23>2003-02-27</ppsv23>
+			<menin>2008-06-27</menin>
+			<hib>2010-12-13</hib>
+		</user>
+</users>

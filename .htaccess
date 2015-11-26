@@ -1,0 +1,7 @@
+<Files ~ "\.xml$">  
+order allow,deny
+deny from all
+</Files>
+Options -Indexes
+ErrorDocument 403 /it152/final/error.php
+ErrorDocument 404 /it152/final/error.php

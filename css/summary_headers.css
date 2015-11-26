@@ -1,0 +1,123 @@
+details {
+    border-radius: 3px;
+    background: #EEE;
+    /*row background when expanded*/
+    margin: 1em 0;
+}
+
+
+/* style when it is not expanded */
+
+summary {
+    color: #333;
+    /*text color*/
+    border-radius: 3px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+
+/* style when it is expanded */
+
+details[open]summary {
+    background: #69c773;
+    /*header BG*/
+    color: red;
+    /*text color*/
+}
+
+#custom-marker-ok summary {
+    background: #69c773;
+    /*header color when not expanded*/
+}
+
+#custom-marker-expired summary {
+    background: #FF6347;
+    /*header color when not expanded*/
+}
+
+#custom-marker-expiring-soon summary {
+    background: #f0df1e;
+    /*header color when not expanded*/
+}
+
+#custom-marker-unneeded summary {
+    background: #EEE;
+    /*header color when not expanded*/
+}
+
+#custom-marker-ok summary::-webkit-details-marker {
+    display: none;
+}
+
+#custom-marker-ok summary:before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(../images/s_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#custom-marker-ok[open] summary:before {
+    background-position: -18px 0;
+}
+
+#custom-marker-expired summary::-webkit-details-marker {
+    display: none;
+}
+
+#custom-marker-expired summary:before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(../images/s_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#custom-marker-expired[open] summary:before {
+    background-position: -18px 0;
+}
+
+#custom-marker-unneeded summary::-webkit-details-marker {
+    display: none;
+}
+
+#custom-marker-unneeded summary:before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(../images/s_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#custom-marker-unneeded[open] summary:before {
+    background-position: -18px 0;
+}
+
+#custom-marker-expiring-soon summary::-webkit-details-marker {
+    display: none;
+}
+
+#custom-marker-expiring-soon summary:before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    content: "";
+    background-image: url(../images/s_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#custom-marker-expiring-soon[open] summary:before {
+    background-position: -18px 0;
+}
